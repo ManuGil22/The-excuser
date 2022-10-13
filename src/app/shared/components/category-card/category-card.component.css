@@ -1,0 +1,17 @@
+.card-container {
+    padding: 20px 25px;
+    border: 2px solid var(--details-color);
+    border-radius: 10px;
+}
+
+.card-container:hover {
+    cursor: pointer;
+    background-color: var(--details-color);
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: var(--fontFamily2);
+    margin: 0;
+    color: var(--text-color);
+}

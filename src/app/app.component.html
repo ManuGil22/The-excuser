@@ -3,4 +3,17 @@
     <p class="question"><span class="detail">¿</span>You need a lie but you don't know what to say<span
             class="detail">?</span></p>
     <p class="solution">Select a category and get a random <span class="detail">excuse</span>!</p>
+    <div class="categories-container">
+        <app-category-card categoryName="Family" (click)="handleExcuse('family')"></app-category-card>
+        <app-category-card categoryName="Office" (click)="handleExcuse('office')"></app-category-card>
+        <app-category-card categoryName="Children" (click)="handleExcuse('children')"></app-category-card>
+        <app-category-card categoryName="College" (click)="handleExcuse('college')"></app-category-card>
+        <app-category-card categoryName="Party" (click)="handleExcuse('party')"></app-category-card>
+        <app-category-card categoryName="Funny" (click)="handleExcuse('funny')"></app-category-card>
+        <app-category-card categoryName="Unbelievable" (click)="handleExcuse('unbelievable')"></app-category-card>
+        <app-category-card categoryName="Developers" (click)="handleExcuse('developers')"></app-category-card>
+    </div>
+    <div class="excuse-container">
+        <p class="excuse">{{excuse}}</p>
+    </div>
 </div>
