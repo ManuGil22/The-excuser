@@ -21,6 +21,12 @@ export class AppComponent {
   handleExcuse(category:string){
     this.excuseSubscription = this.excuser.getExcuse(category).subscribe((data) => {
       this.excuse = data[0].excuse;
+      if (this.excuse){
+        const container = document.getElementById('container');
+        if (container){
+          container.classList.remove('hidden');
+        }
+      }
     });
   }
 }

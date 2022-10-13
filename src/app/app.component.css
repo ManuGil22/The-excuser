@@ -59,6 +59,7 @@
 .excuse {
     font-size: 2.3rem;
     color: var(--text-details-color);
+    user-select: text;
 }
 
 .hidden {
