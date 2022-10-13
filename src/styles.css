@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --fontFamily1: Roboto, "Helvetica Neue", sans-serif;
+	--fontFamily2: 'Rubik', sans-serif;
+	--fontFamily3: 'Satisfy', cursive;
+    --background-color: #293241;
+    --text-color: #e0fbfc;
+    --text-details-color: #98c1d9;
+    --details-color: #ee6c4d;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
